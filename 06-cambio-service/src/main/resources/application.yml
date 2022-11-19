@@ -24,3 +24,9 @@ spring:
     schemas: cambio_service
     user: root
     password: 5pH=92*k3
+springdoc:
+  api-docs:
+    path: cambio-service/v3/api-docs
+  swagger-ui:
+    config-url: /cambio-service/v3/api-docs/swagger-config
+    url:  /cambio-service/v3/api-docs
